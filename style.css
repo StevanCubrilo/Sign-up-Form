@@ -47,7 +47,7 @@ body {
     text-decoration: underline;
 }
 
-span {
+.author {
     color: white;
 }
 
@@ -56,7 +56,12 @@ span {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    margin-left: 4rem;
+    padding-left: 4rem;
+}
+
+.sign, .call {
+    font-weight: 650;
+    font-size: 24px;
 }
 
 .sign_up {
@@ -67,13 +72,80 @@ span {
 .form {
     display: flex;
     flex-direction: column;
+    gap: 1.5rem;
 }
 
 .form_group {
     display: flex;
+    gap: 6rem;
 }
 
 .single_form {
     display: flex;
     flex-direction: column;
+    gap: 0.3rem;
 }
+
+label {
+    font-size: 10px;
+    font-weight: 650;
+}
+
+input,
+textarea {
+    width: 200px;
+    height: 25px;
+    padding: 0;
+    margin: 0;
+    border-style:solid;
+    border-width: 1px;
+    box-sizing: border-box;
+    border-color: #E5E7EB;
+    border-radius: 3px;
+}
+
+
+
+input:focus,
+textarea:focus {
+    background-color: #F3F4F6 !important; 
+    border-color: #336bff!important; 
+    outline: none !important; 
+}
+
+.red_label {
+    border-color: #d91919;
+}
+
+.red_label:focus {
+    background-color: #F3F4F6 !important; 
+    border-color: #336bff!important; 
+    outline: none !important; 
+}
+
+button {
+    margin-top: 20px; 
+    width: 180px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    background-color: #33a4ff;
+    color: white;
+    font-weight: 600;
+}
+
+.last_span {
+    color: black;
+}
+
+.account {
+    color: black;
+    text-decoration: none;
+    color:#33a4ff;
+    font-weight: 600;   
+}
+
+.last_part {
+    margin-top: 20px;
+}
+
