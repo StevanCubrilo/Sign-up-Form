@@ -6,12 +6,14 @@ body {
     display: flex;
     font-family: 'Roboto', sans-serif;
     margin: 0;
-    height: 100%
+    height: 100%;
+    overflow: hidden;
 }
 
 .left_part {
     position: relative;
     height: 100%;
+    width: 35%
 }
 
 .road {
@@ -64,7 +66,8 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: left;
-    padding-left: 4rem;
+    background-color: #f4f8f8;
+    width: 65%;
 }
 
 .sign, .call {
@@ -72,15 +75,20 @@ body {
     font-size: 24px;
 }
 
+
+
 .sign_up {
     display: flex;
     flex-direction: column;
+    background-color: white;
+    
 }
 
 .form {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
+    
 }
 
 .form_group {
@@ -132,7 +140,7 @@ textarea:focus {
 }
 
 button {
-    margin-top: 20px; 
+    margin-top: 2rem; 
     width: 160px;
     height: 40px;
     border-radius: 5px;
@@ -157,3 +165,17 @@ button {
     margin-top: 20px;
 }
 
+.white_background {
+    background-color: white; 
+    width: 100%;
+    padding-left: 4rem;
+    padding-bottom: 2rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.white_background, 
+.button_class,
+.call,
+.last_part {
+    padding-left: 3rem;
+}
