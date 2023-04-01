@@ -50,3 +50,30 @@ body {
 span {
     color: white;
 }
+
+.right_part {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    margin-left: 4rem;
+}
+
+.sign_up {
+    display: flex;
+    flex-direction: column;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_group {
+    display: flex;
+}
+
+.single_form {
+    display: flex;
+    flex-direction: column;
+}
