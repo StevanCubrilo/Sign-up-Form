@@ -1,0 +1,52 @@
+body {
+    display: flex;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+.left_part {
+    position: relative;
+}
+
+.road {
+    display: block;
+    width: 100%;
+}
+
+.container {
+    position: absolute;
+    top: 8rem;
+    left: 0;
+    width: 100%;
+}
+
+.text {
+    text-align: center;
+    font-size: 4em;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 0.5rem;
+}
+
+.bottom-link-container {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1rem;
+}
+
+.bottom-link {
+    color: white;
+    text-decoration: none;
+}
+
+.bottom-link:hover {
+    text-decoration: underline;
+}
+
+span {
+    color: white;
+}
