@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sign-up-Form</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">  
 </head>
 <body>
     <div class="left_part">
@@ -30,7 +30,7 @@
 
                 <p class="sign">Join today!</p>
                 
-                <form class="form">
+                <form class="form" onsubmit="return validatePasswords();">
     
                     <div class="form_group">
     
@@ -65,12 +65,15 @@
                         <div class="single_form">
                             <label class="red_label" for="password">PASSWORD</label>
                             <input type="password" id="password" name="password" class="red_label" />
+                            <p class="password_error" style="display:none;">*passwords do not match</p>
                         </div>
     
                         <div class="single_form">
                             <label for="rptpassword">CONFIRM PASSWORD</label>
-                            <input type="password" id="rptpassword" name="password" class="red_label" />
+                            <input type="password" id="rptpassword" name="password" class="red_label" />          
                         </div>
+
+                        
                     </div>
                     
     
@@ -82,7 +85,7 @@
         </div>
         
         <div class="button_class">
-            
+
             <button class="button">Create Account</button>
 
         </div>
@@ -94,6 +97,8 @@
         </div>
 
     </div>
+
+    <script src="script.js"></script>      
 </body>
 </html>
 
